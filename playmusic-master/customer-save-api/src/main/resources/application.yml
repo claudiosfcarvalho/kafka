@@ -21,3 +21,5 @@ spring:
       group-id: requestreplygorup
       auto-offset-reset: earliest
       enable-auto-commit: false
+    listener:
+      missing-topics-fatal: false
